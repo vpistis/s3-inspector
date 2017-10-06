@@ -124,8 +124,6 @@ if __name__ == '__main__':
         if not bucketcount:
             print('No buckets found')
             termcolor.cprint(termcolor.colored('You are safe', 'green'))
-    # except botocore.exceptions.NoCredentialsError as e:
-    #    print('{}. Please put the credentials in ~/.aws/credentials file'.format(e))
     except botocore.exceptions.ClientError as e:
         msg = str(e)
         if 'InvalidAccessKeyId' in msg and 'does not exist' in msg:
