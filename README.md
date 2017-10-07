@@ -30,3 +30,6 @@ aws_secret_access_key = <your secret_access_key goes here>
 ```
 ## Usage
 `python s3inspector.py`
+
+## Report example
+![Sample report screenshot](https://github.com/kromtech/s3-inspector/blob/screenshot/samplerun.png "Sample report screenshot")
