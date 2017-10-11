@@ -36,7 +36,7 @@ aws_secret_access_key = <your secret_access_key goes here>
 [default]
 aws_access_key_id = <your access key ID goes here>
 aws_secret_access_key = <your secret_access_key goes here>
-[myPorfile_name]
+[my_profile_name]
 aws_access_key_id = <your access key ID goes here>
 aws_secret_access_key = <your secret_access_key goes here>
 ```
